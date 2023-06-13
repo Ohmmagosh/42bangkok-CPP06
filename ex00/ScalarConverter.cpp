@@ -6,7 +6,7 @@
 /*   By: psuanpro <psuanpro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/13 12:52:31 by psuanpro          #+#    #+#             */
-/*   Updated: 2023/06/13 22:47:59 by psuanpro         ###   ########.fr       */
+/*   Updated: 2023/06/13 22:49:20 by psuanpro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,22 +80,3 @@ void ScalarConverter::convertInt( double in) {
 	std::cout << "int: " << in << std::endl;
 	return ;
 }
-// ./convert 0
-// char: Non displayable
-// int: 0
-// float: 0.0f
-// double: 0.0
-
-
-// ./convert nan
-// char: impossible
-// int: impossible
-// float: nanf
-// double: nan
-
-
-// ./convert 42.0f
-// char: '*'
-// int: 42
-// float: 42.0f
-// double: 42.0
