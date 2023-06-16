@@ -6,7 +6,7 @@
 /*   By: psuanpro <psuanpro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/13 23:38:32 by psuanpro          #+#    #+#             */
-/*   Updated: 2023/06/14 00:46:47 by psuanpro         ###   ########.fr       */
+/*   Updated: 2023/06/16 00:02:07 by psuanpro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,6 @@ void identify(Base* p) {
 		std::cout << msg << "C" << std::endl;
 	else
 		std::cout << "What!!!" << std::endl;
-
-
-
 }
 
 void identify(Base& p) {
@@ -50,7 +47,6 @@ void identify(Base& p) {
 		std::cout << msg << "C" << std::endl;
 	else
 		std::cout << "What!!" << std::endl;
-
 }
 
 int main(void) {

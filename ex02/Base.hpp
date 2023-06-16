@@ -6,12 +6,12 @@
 /*   By: psuanpro <psuanpro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/13 23:38:34 by psuanpro          #+#    #+#             */
-/*   Updated: 2023/06/14 00:30:14 by psuanpro         ###   ########.fr       */
+/*   Updated: 2023/06/16 17:28:42 by psuanpro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef Base_hpp
-# define Base_hpp
+#ifndef BASE_HPP
+# define BASE_HPP
 
 # include <iostream>
 # include <typeinfo>
